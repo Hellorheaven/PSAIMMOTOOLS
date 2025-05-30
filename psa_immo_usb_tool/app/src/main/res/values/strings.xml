@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PSA Immo Tool</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="request_pin">Request PIN Code</string>
+    <string name="request_vin">Request VIN</string>
+    <string name="listen_can">Listen to CAN frames</string>
+    <string name="send_frame">Send frame</string>
+    <string name="enter_frame">Enter frame</string>
+    <string name="choose_module">Choose the module to connect:</string>
+    <string name="no_module_connected">No module connected</string>
+    <string name="connected_to">Connected to %1$s</string>
+    <string name="logs">Logs:</string>
+
+    <!-- Menu -->
+    <string name="menu_theme">Theme</string>
+    <string name="menu_theme_light">Light Theme</string>
+    <string name="menu_theme_dark">Dark Theme</string>
+    <string name="menu_language">Language</string>
+    <string name="menu_quit">Quit</string>
+    <string name="menu_lang_en">English</string>
+    <string name="menu_lang_fr">French</string>
+
+    <!-- Errors -->
+    <string name="error_usb_permission">USB permission denied</string>
+    <string name="error_usb_register">USB registration error: %1$s</string>
+    <string name="error_bt_permission">Bluetooth permission denied</string>
+    <string name="error_bt_connection">Bluetooth error</string>
+    <string name="no_usb_found">No USB device detected</string>
+    <string name="module_not_found">ELM327 module not found</string>
+    <string name="disconnected">Disconnected</string>
+</resources>

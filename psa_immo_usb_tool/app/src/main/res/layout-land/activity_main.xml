@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:fitsSystemWindows="true"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_module"
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/moduleSelector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Nouveau : Liste des périphériques Bluetooth -->
+        <Spinner
+            android:id="@+id/bluetoothDeviceSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/connectButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/connect"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/requestPinButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/request_pin"
+            android:enabled="false"
+            android:visibility="gone"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/requestVinButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/request_vin"
+            android:enabled="false"
+            android:visibility="gone"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/startCanListenButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/listen_can"
+            android:enabled="false"
+            android:visibility="gone"
+            android:layout_marginTop="8dp" />
+
+        <LinearLayout
+            android:id="@+id/sendFrameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:id="@+id/inputFrameText"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_frame" />
+
+            <Button
+                android:id="@+id/sendFrameButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send_frame" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logs"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#EEE"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/outputText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="14sp"
+                android:scrollbars="vertical" />
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_module_connected"
+            android:textStyle="italic"
+            android:textColor="#666"
+            android:paddingTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>
