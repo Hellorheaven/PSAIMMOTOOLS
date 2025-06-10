@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="module_list">
+        <item>CANBUS</item>
+        <item>OBD2 USB</item>
+        <item>OBD2 Bluetooth</item>
+        <item>K-Line USB</item>
+        <item>CANBUS UART (G-PSA-RZ-66)</item>
+    </string-array>
+</resources>

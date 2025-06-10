@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">PSA Immo Tool</string>
+    <string name="connect">Connecter</string>
+    <string name="disconnect">Déconnecter</string>
+    <string name="request_pin">Demander le code PIN</string>
+    <string name="request_vin">Demander le VIN</string>
+    <string name="listen_can">Écouter les trames CAN</string>
+    <string name="send_frame">Envoyer</string>
+    <string name="enter_frame">Saisir une trame</string>
+    <string name="choose_module">Choisissez le module à connecter :</string>
+    <string name="no_module_connected">Aucun module connecté</string>
+    <string name="connected_to">Connecté à %1$s</string>
+    <string name="logs">Logs :</string>
+
+    <!-- Menu -->
+    <string name="menu_theme">Thème</string>
+    <string name="menu_theme_light">Thème clair</string>
+    <string name="menu_theme_dark">Thème sombre</string>
+    <string name="menu_language">Langue</string>
+    <string name="menu_quit">Quitter</string>
+    <string name="menu_lang_en">Anglais</string>
+    <string name="menu_lang_fr">Français</string>
+
+    <!-- Erreurs -->
+    <string name="error_usb_permission">Permission USB refusée</string>
+    <string name="error_usb_register">Erreur USB : %1$s</string>
+    <string name="error_bt_permission">Permission Bluetooth refusée</string>
+    <string name="error_bt_connection">Erreur Bluetooth</string>
+    <string name="no_usb_found">Aucun périphérique USB détecté</string>
+    <string name="module_not_found">Module ELM327 non trouvé</string>
+    <string name="disconnected">Déconnecté</string>
+
+
+    <!-- Nouveaux -->
+    <string name="export_logs">Exporter les logs</string>
+    <string name="clear_logs">Vider les logs</string>
+    <string name="logs_cleared">🧹 Logs vidés</string>
+    <string name="frame_decoded_prefix">🧠 Trame décodée :</string>
+    <string name="logs_exported_path">Logs exportés : %1$s</string>
+    <string name="error_export_logs">Erreur lors de l’export des logs : %1$s</string>
+    <string name="sending_kline_frame">Envoi trame K-Line : %1$s</string>
+    <string name="error_kline_send">Erreur K-Line : %1$s</string>
+    <!-- Décodage CAN -->
+    <string name="can_listening">🔍 Écoute des trames CAN en direct…</string>
+    <string name="can_frame_decoded">🧠 %1$s</string>
+    <string name="can_listen_error">Erreur d’écoute CAN : %1$s</string>
+    <string name="can_frame_invalid">Trame CAN invalide (trop courte)</string>
+    <string name="can_frame_unknown">Trame CAN inconnue (ID=%1$s)</string>
+    <string name="vin_detected">VIN détecté : %1$s</string>
+    <string name="pin_detected">Code PIN IMMO : %1$s</string>
+    <string name="vehicle_status">Statut véhicule : %1$s, %2$s</string>
+    <string name="engine_status">Moteur : %1$d RPM, température eau : %2$d°C</string>
+    <string name="mileage_info">Kilométrage approximatif : %1$d km</string>
+    <string name="climate_temp">Température clim demandée : %1$.1f°C</string>
+    <string name="steering_command">Commande volant : %1$s</string>
+    <string name="unknown_steering_code">Commande inconnue (%1$d)</string>
+    <string name="invalid_frame">Trame %1$s invalide</string>
+    <!-- Statuts -->
+    <string name="door_open">portes ouvertes</string>
+    <string name="trunk_open">coffre ouvert</string>
+    <string name="doors_closed">toutes portes fermées</string>
+    <string name="lights_on">phares allumés</string>
+    <string name="lights_off">phares éteints</string>
+
+    <!-- Commandes volant -->
+    <string name="btn_source">Bouton Source</string>
+    <string name="btn_volume_up">Volume +</string>
+    <string name="btn_volume_down">Volume -</string>
+    <string name="btn_next">Suivant</string>
+    <string name="btn_prev">Précédent</string>
+
+
+
+</resources>

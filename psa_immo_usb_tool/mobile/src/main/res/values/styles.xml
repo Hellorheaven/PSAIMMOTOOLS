@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Boutons principaux : actions comme Connexion, Requête VIN, etc. -->
+    <style name="Widget.PsaImmoTool.PrimaryButton" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/purple_500</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <!-- Boutons secondaires comme "Exporter les logs", "Vider les logs" -->
+    <style name="Widget.PsaImmoTool.SecondaryButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="android:strokeColor">@color/purple_500</item>
+        <item name="android:strokeWidth">1.0</item>
+
+    </style>
+
+    <!-- Titre clair visible dans ScrollView -->
+    <style name="Widget.PsaImmoTool.SectionTitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/purple_700</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Zone d’entrée (EditText) pour trame personnalisée -->
+    <style name="Widget.PsaImmoTool.FrameInput" parent="Widget.Material3.TextInputEditText.FilledBox">
+        <item name="android:textColor">@color/black</item>
+        <item name="hintTextColor">@color/teal_200</item>
+        <item name="android:backgroundTint">@color/purple_500</item>
+    </style>
+
+    <style name="App.TextView" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="App.EditText" parent="Widget.Material3.TextInputEditText.FilledBox">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

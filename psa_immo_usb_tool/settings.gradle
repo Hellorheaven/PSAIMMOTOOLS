@@ -1,2 +1,13 @@
 rootProject.name = 'psa_immo_usb_tool_project'
-include ':app'
+include ':mobile',':core'
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral() // Essential for many libraries
+        // For libraries hosted on JitPack (common for GitHub projects)
+        maven { url 'https://jitpack.io' }
+    }
+}
+
