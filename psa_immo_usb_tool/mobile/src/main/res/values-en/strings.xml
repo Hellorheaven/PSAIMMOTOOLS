@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">PSA Immo Tool</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="request_pin">Request PIN Code</string>
+    <string name="request_vin">Request VIN</string>
+    <string name="listen_can">Listen to CAN frames</string>
+    <string name="send_frame">Send</string>
+    <string name="enter_frame">Enter frame</string>
+    <string name="choose_module">Choose the module to connect:</string>
+    <string name="no_module_connected">No module connected</string>
+    <string name="connected_to">Connected to %1$s</string>
+    <string name="logs">Logs:</string>
+
+    <!-- Menu -->
+    <string name="menu_theme">Theme</string>
+    <string name="menu_theme_light">Light Theme</string>
+    <string name="menu_theme_dark">Dark Theme</string>
+    <string name="menu_language">Language</string>
+    <string name="menu_quit">Quit</string>
+    <string name="menu_lang_en">English</string>
+    <string name="menu_lang_fr">French</string>
+
+    <!-- Errors -->
+    <string name="error_usb_permission">USB permission denied</string>
+    <string name="error_usb_register">USB registration error: %1$s</string>
+    <string name="error_bt_permission">Bluetooth permission denied</string>
+    <string name="error_bt_connection">Bluetooth error</string>
+    <string name="no_usb_found">No USB device detected</string>
+    <string name="module_not_found">ELM327 module not found</string>
+    <string name="disconnected">Disconnected</string>
+
+    <!-- New -->
+    <string name="export_logs">Export logs</string>
+    <string name="clear_logs">Clear logs</string>
+    <string name="logs_cleared">🧹 Logs cleared</string>
+    <string name="frame_decoded_prefix">🧠 Decoded frame:</string>
+    <string name="logs_exported_path">Logs exported to: %1$s</string>
+    <string name="error_export_logs">Error exporting logs: %1$s</string>
+    <string name="sending_kline_frame">Sending K-Line frame: %1$s</string>
+    <string name="error_kline_send">K-Line error: %1$s</string>
+    <!-- CAN Decoding -->
+    <string name="can_listening">🔍 Listening to CAN frames live…</string>
+    <string name="can_frame_decoded">🧠 %1$s</string>
+    <string name="can_listen_error">CAN listening error: %1$s</string>
+    <string name="can_frame_invalid">Invalid CAN frame (too short)</string>
+    <string name="can_frame_unknown">Unknown CAN frame (ID=%1$s)</string>
+    <string name="vin_detected">VIN detected: %1$s</string>
+    <string name="pin_detected">IMMO PIN code: %1$s</string>
+    <string name="vehicle_status">Vehicle status: %1$s, %2$s</string>
+    <string name="engine_status">Engine: %1$d RPM, coolant temp: %2$d°C</string>
+    <string name="mileage_info">Approx. mileage: %1$d km</string>
+    <string name="climate_temp">Requested climate temp: %1$.1f°C</string>
+    <string name="steering_command">Steering command: %1$s</string>
+    <string name="unknown_steering_code">Unknown command (%1$d)</string>
+    <string name="invalid_frame">Invalid %1$s frame</string>
+    <!-- Status -->
+    <string name="door_open">doors open</string>
+    <string name="trunk_open">trunk open</string>
+    <string name="doors_closed">all doors closed</string>
+    <string name="lights_on">headlights on</string>
+    <string name="lights_off">headlights off</string>
+
+    <!-- Steering buttons -->
+    <string name="btn_source">Source Button</string>
+    <string name="btn_volume_up">Volume +</string>
+    <string name="btn_volume_down">Volume -</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_prev">Previous</string>
+
+
+
+</resources>

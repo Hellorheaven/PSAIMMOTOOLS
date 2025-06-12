@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.PsaImmoTool" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Couleurs -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+
+        <!-- Eléments Material -->
+        <item name="android:buttonStyle">@style/Widget.Material3.Button</item>
+        <item name="android:textViewStyle">@style/App.TextView</item>
+        <item name="android:editTextStyle">@style/App.EditText</item>
+    </style>
+</resources>
